@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Noto+Sans:ital,wght@1,200;1,400&family=Poppins:wght@300&family=Yanone+Kaffeesatz&display=swap');
+
+a{
+  color : black !important;
+}
+.brand-logo,h2
+{
+  font-family: 'Grand Hotel', cursive;
+}
+.cards{
+  margin-top: 30px;
+}
+
+.auth-class
+{
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+}
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid rgb(8 93 252) !important;
+  box-shadow: 0 1px 0 0 rgb(8 93 252) !important;
+}
+.gallery{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+}
+.item{
+  width: 25%;
+}
+.card{
+  width: 800px !important;
+  height: max-content;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+.card1{
+  width: 600px !important;
+  height: max-content;
+  margin-left: 30%;
+  margin-top: 5%;
+  padding: 20px;
+  text-align: center;
+}
+.logbtn{
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+
